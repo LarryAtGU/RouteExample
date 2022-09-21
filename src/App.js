@@ -2,10 +2,7 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import Welcome from "./pages/welcome";
 import Products from "./pages/products";
 import MainHeader from "./components/mainheader";
-const ProductDetail = () => {
-  return <div>Product Details</div>;
-};
-
+import ProductDetail from "./pages/productdetail";
 function App() {
   return (
     <div>
